@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📁 Kelola Kategori</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">💰</div>
+        <nav>
+            <ul>
+                <li><a href="index.php">Dashboard</a></li>
+                <li><a href="input_transaksi.php">Input Transaksi</a></li>
+                <li><a href="laporan_bulanan.php">Laporan Bulanan</a></li>
+                <li><a href="visualisasi_data.php">Visualisasi Data</a></li>
+                <li><a href="kelola_kategori.php" class="active">Kelola Kategori</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2 class="card-title">📁 Kelola Kategori & Klasifikasi Otomatis</h2>
+
+            
+            
+            <div class="category-list">
+                                    <div class="category-item">
+                        <span>makanan</span>
+                        <button onclick="if(confirm('Hapus kategori makanan?')) window.location.href='kelola_kategori.php?hapus=makanan'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>transportasi</span>
+                        <button onclick="if(confirm('Hapus kategori transportasi?')) window.location.href='kelola_kategori.php?hapus=transportasi'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>belanja</span>
+                        <button onclick="if(confirm('Hapus kategori belanja?')) window.location.href='kelola_kategori.php?hapus=belanja'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>hiburan</span>
+                        <button onclick="if(confirm('Hapus kategori hiburan?')) window.location.href='kelola_kategori.php?hapus=hiburan'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>kesehatan</span>
+                        <button onclick="if(confirm('Hapus kategori kesehatan?')) window.location.href='kelola_kategori.php?hapus=kesehatan'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>pendidikan</span>
+                        <button onclick="if(confirm('Hapus kategori pendidikan?')) window.location.href='kelola_kategori.php?hapus=pendidikan'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>tagihan</span>
+                        <button onclick="if(confirm('Hapus kategori tagihan?')) window.location.href='kelola_kategori.php?hapus=tagihan'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>gaji</span>
+                        <button onclick="if(confirm('Hapus kategori gaji?')) window.location.href='kelola_kategori.php?hapus=gaji'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>investasi</span>
+                        <button onclick="if(confirm('Hapus kategori investasi?')) window.location.href='kelola_kategori.php?hapus=investasi'">🗑️</button>
+                    </div>
+                                    <div class="category-item">
+                        <span>lainnya</span>
+                        <button onclick="if(confirm('Hapus kategori lainnya?')) window.location.href='kelola_kategori.php?hapus=lainnya'">🗑️</button>
+                    </div>
+                            </div>
+
+            <div class="category-form">
+                <h3>➕ Tambah Kategori Baru</h3>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="nama_kategori">Nama Kategori</label>
+                        <input type="text" id="nama_kategori" name="nama_kategori" required placeholder="Contoh: Makanan">
+                    </div>
+                    <div class="form-group">
+                        <label for="kata_kunci">Kata Kunci (opsional)</label>
+                        <input type="text" id="kata_kunci" name="kata_kunci" placeholder="Contoh: makan, nasi, bakso">
+                    </div>
+                    <button type="submit" name="tambah_kategori"><span>➕</span> Tambah Kategori</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        📊 Sistem Manajemen Keuangan - Ian Co | © 2025    </footer>
+</body>
+</html>

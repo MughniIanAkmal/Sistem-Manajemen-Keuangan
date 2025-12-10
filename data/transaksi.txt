@@ -1,0 +1,42 @@
+[
+    {
+        "id": "trans_001",
+        "tanggal": "2025-12-01",
+        "jumlah": 50000,
+        "deskripsi": "Gaji Bulan Desember",
+        "jenis": "pemasukan",
+        "kategori": "gaji"
+    },
+    {
+        "id": "trans_002",
+        "tanggal": "2025-12-02",
+        "jumlah": 25000,
+        "deskripsi": "Makan siang di warung",
+        "jenis": "pengeluaran",
+        "kategori": "makanan"
+    },
+    {
+        "id": "trans_003",
+        "tanggal": "2025-12-03",
+        "jumlah": 15000,
+        "deskripsi": "Beli pulsa",
+        "jenis": "pengeluaran",
+        "kategori": "transportasi"
+    },
+    {
+        "id": "trans_004",
+        "tanggal": "2025-12-05",
+        "jumlah": 10000,
+        "deskripsi": "Bayar tagihan listrik",
+        "jenis": "pengeluaran",
+        "kategori": "tagihan"
+    },
+    {
+        "id": "trans_005",
+        "tanggal": "2025-12-07",
+        "jumlah": 30000,
+        "deskripsi": "Belanja kebutuhan rumah",
+        "jenis": "pengeluaran",
+        "kategori": "belanja"
+    }
+]
